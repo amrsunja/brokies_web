@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Brokies — trade, rank, and grow with a community built for serious players."
+      data-i18n="index.metaDesc"
+    />
+    <title data-i18n="index.metaTitle">Brokies — Your edge in the market</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="globe-layer" aria-hidden="true">
+      <img
+        class="globe-layer__img globe-layer__img--1"
+        src="assets/earth_1.png"
+        alt=""
+        width="520"
+        height="520"
+      />
+      <img
+        class="globe-layer__img globe-layer__img--2"
+        src="assets/earth2.png"
+        alt=""
+        width="420"
+        height="420"
+      />
+      <img
+        class="globe-layer__img globe-layer__img--3"
+        src="assets/earth3.png"
+        alt=""
+        width="360"
+        height="360"
+      />
+    </div>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="logo logo--img" aria-label="Brokies">
+          <img src="assets/logo.jpg" alt="" width="160" height="48" />
+        </a>
+        <nav class="nav-desktop" aria-label="Main">
+          <a href="#features" data-i18n="nav.features">Features</a>
+          <a href="#screens" data-i18n="nav.app">App</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+          <a class="nav-cta" href="#download" data-i18n="nav.download">Download</a>
+        </nav>
+        <div class="header-actions">
+          <div
+            class="lang-switch"
+            id="brokies-lang-group"
+            role="group"
+            aria-label="Language"
+          >
+            <button
+              type="button"
+              class="lang-switch__btn is-active"
+              data-lang="en"
+              aria-pressed="true"
+            >
+              EN
+            </button>
+            <button
+              type="button"
+              class="lang-switch__btn"
+              data-lang="fr"
+              aria-pressed="false"
+            >
+              FR
+            </button>
+          </div>
+          <button
+            type="button"
+            class="nav-toggle"
+            aria-label="Open menu"
+            aria-expanded="false"
+          >
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <nav class="nav-mobile" aria-label="Mobile">
+        <a href="#features" data-i18n="nav.features">Features</a>
+        <a href="#screens" data-i18n="nav.app">App</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        <a href="#download" data-i18n="nav.download">Download</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="download">
+        <div id="top"></div>
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="hero__glow" aria-hidden="true"></div>
+        <div class="container hero__grid">
+          <div>
+            <p class="hero__eyebrow" data-i18n="hero.eyebrow">Wealth · Community · Markets</p>
+            <h1 data-i18n="hero.h1">Trade with clarity. Rise with Brokies.</h1>
+            <p class="hero__lead" data-i18n="hero.lead">
+              A premium space to share ideas, track your rank, and connect with
+              traders who play at your level — wrapped in a dark, gold-accented
+              experience you already love in the app.
+            </p>
+            <div class="store-row">
+              <a
+                class="btn-store"
+                href="https://apps.apple.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"
+                  />
+                </svg>
+                <span>
+                  <small data-i18n="store.appSmall">Download on the</small>
+                  <strong>App Store</strong>
+                </span>
+              </a>
+              <a
+                class="btn-store"
+                href="https://play.google.com/store"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="store-icon-play">
+                  <path
+                    fill="currentColor"
+                    fill-opacity="0.92"
+                    d="M3.6 2.2c-.4.2-.6.6-.6 1.1v17.4c0 .5.2.9.6 1.1l10.1-9.8L3.6 2.2z"
+                  />
+                  <path
+                    fill="currentColor"
+                    fill-opacity="0.72"
+                    d="M14.1 12.5l3.4 3.4 4.1-2.4c.7-.4.7-1.3 0-1.7l-4.1-2.4-3.4 3.1z"
+                  />
+                  <path
+                    fill="currentColor"
+                    fill-opacity="0.55"
+                    d="M14.1 11.5L10.7 8.4 3.6 2.2c.3-.2.7-.3 1.1-.1l12.8 7.4-3.4 2z"
+                  />
+                  <path
+                    fill="currentColor"
+                    fill-opacity="0.88"
+                    d="M3.6 21.8c-.4-.2-.6-.6-.6-1.1v-.2l7.7-7.1 3.4 3.1-10.5 5.3z"
+                  />
+                </svg>
+                <span>
+                  <small data-i18n="store.googleSmall">Get it on</small>
+                  <strong>Google Play</strong>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="hero__visual" id="screens">
+            <div class="hero__phone-frame" data-carousel-root>
+              <img
+                class="hero__coin"
+                src="assets/coin.png"
+                alt=""
+                width="224"
+                height="224"
+              />
+              <div class="hero__phone-inner">
+                <div class="carousel" data-carousel aria-roledescription="carousel">
+                  <div class="carousel__viewport">
+                    <div class="carousel__track">
+                      <div class="carousel__slide">
+                        <img
+                          src="assets/screenshot1.png"
+                          alt=""
+                          data-i18n="hero.imgAlt"
+                          width="720"
+                          height="1520"
+                          loading="eager"
+                        />
+                      </div>
+                      <div class="carousel__slide">
+                        <img
+                          src="assets/screenshot2.png"
+                          alt=""
+                          data-i18n="hero.imgAlt"
+                          width="720"
+                          height="1520"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div class="carousel__slide">
+                        <img
+                          src="assets/screenshot3.png"
+                          alt=""
+                          data-i18n="hero.imgAlt"
+                          width="720"
+                          height="1520"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div class="carousel__slide">
+                        <img
+                          src="assets/screenshot4.png"
+                          alt=""
+                          data-i18n="hero.imgAlt"
+                          width="720"
+                          height="1520"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div class="carousel__slide">
+                        <img
+                          src="assets/screenshot5.png"
+                          alt=""
+                          data-i18n="hero.imgAlt"
+                          width="720"
+                          height="1520"
+                          loading="lazy"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    class="carousel__arrow carousel__arrow--prev"
+                    data-carousel-prev
+                    data-i18n-aria="carousel.prev"
+                    aria-label="Previous screenshot"
+                  >
+                    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                      <path
+                        d="M14.5 5.5L8 12l6.5 6.5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.25"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                  <button
+                    type="button"
+                    class="carousel__arrow carousel__arrow--next"
+                    data-carousel-next
+                    data-i18n-aria="carousel.next"
+                    aria-label="Next screenshot"
+                  >
+                    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                      <path
+                        d="M9.5 5.5L16 12l-6.5 6.5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.25"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="carousel__dots" data-carousel-dots></div>
+              <span class="hero__badge" data-i18n="hero.badge">Whale</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="features">
+        <div class="container">
+          <div class="section__head reveal">
+            <h2 data-i18n="features.h2">Built for the scoreboard</h2>
+            <p data-i18n="features.lead">
+              Everything you need to show up, stand out, and stay in the
+              conversation — without losing the premium feel.
+            </p>
+          </div>
+          <div class="features">
+            <article class="feature-card reveal">
+              <div class="feature-card__icon" aria-hidden="true">◎</div>
+              <h3 data-i18n="feat1.h">Rank &amp; reputation</h3>
+              <p data-i18n="feat1.p">
+                Climb tiers and badges that reflect how you move in the market —
+                visible at a glance on your profile.
+              </p>
+            </article>
+            <article class="feature-card reveal">
+              <div class="feature-card__icon" aria-hidden="true">✦</div>
+              <h3 data-i18n="feat2.h">Feed that hits</h3>
+              <p data-i18n="feat2.p">
+                Share takes, tag themes, and engage with a community that speaks
+                the same language as your charts.
+              </p>
+            </article>
+            <article class="feature-card reveal">
+              <div class="feature-card__icon" aria-hidden="true">◇</div>
+              <h3 data-i18n="feat3.h">Premium dark UI</h3>
+              <p data-i18n="feat3.p">
+                Deep ink backgrounds, gold accents, and serif headlines — the
+                same visual DNA as the mobile app.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="showcase">
+        <div class="container showcase">
+          <div class="showcase__img-wrap reveal">
+            <img
+              src="assets/post_card.png"
+              alt="Brokies feed card"
+              data-i18n="showcase.cardAlt"
+              width="900"
+              height="1200"
+              loading="lazy"
+            />
+          </div>
+          <div class="showcase__content reveal">
+            <h2 data-i18n="showcase.h2">Your profile, your statement</h2>
+            <p data-i18n="showcase.p1">
+              Balance, followers, and posts live in one refined layout — tuned
+              for readability in low light and impact in the feed.
+            </p>
+            <p data-i18n="showcase.p2">
+              Hashtags and badges pick up brand gold so the important signals
+              never get lost in the noise.
+            </p>
+            <div class="stat-row">
+              <div class="stat">
+                <div class="stat__value">$1.2M+</div>
+                <div class="stat__label" data-i18n="showcase.stat1">Example balance</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value">WHALE</div>
+                <div class="stat__label" data-i18n="showcase.stat2">Status tier</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value">24/7</div>
+                <div class="stat__label" data-i18n="showcase.stat3">Markets never sleep</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta-band reveal">
+            <h2 data-i18n="cta.h2">Ready to join Brokies?</h2>
+            <p data-i18n="cta.p">Download the app and bring your A-game to the feed.</p>
+            <div class="store-row">
+              <a
+                class="btn-store"
+                href="https://apps.apple.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"
+                  />
+                </svg>
+                <span>
+                  <small data-i18n="store.appSmall">Download on the</small>
+                  <strong>App Store</strong>
+                </span>
+              </a>
+              <a
+                class="btn-store"
+                href="https://play.google.com/store"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="store-icon-play">
+                  <path
+                    fill="currentColor"
+                    fill-opacity="0.92"
+                    d="M3.6 2.2c-.4.2-.6.6-.6 1.1v17.4c0 .5.2.9.6 1.1l10.1-9.8L3.6 2.2z"
+                  />
+                  <path
+                    fill="currentColor"
+                    fill-opacity="0.72"
+                    d="M14.1 12.5l3.4 3.4 4.1-2.4c.7-.4.7-1.3 0-1.7l-4.1-2.4-3.4 3.1z"
+                  />
+                  <path
+                    fill="currentColor"
+                    fill-opacity="0.55"
+                    d="M14.1 11.5L10.7 8.4 3.6 2.2c.3-.2.7-.3 1.1-.1l12.8 7.4-3.4 2z"
+                  />
+                  <path
+                    fill="currentColor"
+                    fill-opacity="0.88"
+                    d="M3.6 21.8c-.4-.2-.6-.6-.6-1.1v-.2l7.7-7.1 3.4 3.1-10.5 5.3z"
+                  />
+                </svg>
+                <span>
+                  <small data-i18n="store.googleSmall">Get it on</small>
+                  <strong>Google Play</strong>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo logo--img logo--footer" aria-label="Brokies">
+            <img src="assets/logo.jpg" alt="" width="140" height="42" />
+          </a>
+          <p data-i18n="footer.tagline">
+            The social layer for traders who care about rank, reputation, and
+            real-time energy — in a dark, gold-trimmed experience.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.colProduct">Product</h4>
+          <ul>
+            <li><a href="#features" data-i18n="nav.features">Features</a></li>
+            <li><a href="#download" data-i18n="nav.download">Download</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.colLegal">Legal</h4>
+          <ul>
+            <li><a href="terms.html" data-i18n="terms.h1">Terms of Use</a></li>
+            <li><a href="privacy.html" data-i18n="privacy.h1">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.colConnect">Connect</h4>
+          <ul>
+            <li><a href="mailto:hello@brokies.app">hello@brokies.app</a></li>
+            <li><a href="contact.html" data-i18n="footer.contactForm">Contact form</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span
+          >&copy; <span id="year"></span> Brokies.
+          <span data-i18n="footer.rights">All rights reserved.</span></span
+        >
+        <span data-i18n="footer.disclaimer"
+          >Markets involve risk. Brokies does not provide financial advice.</span
+        >
+      </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
